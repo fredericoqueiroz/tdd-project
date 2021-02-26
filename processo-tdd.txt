@@ -1,0 +1,18 @@
+Processo TDD utilizando Testes Funcionais e Testes de Unidade redepresentado na figura:
+
+1. Escrever um Teste Funcional.
+
+2. Rodar o Teste Funcional e verificar se falha.
+
+3. Enquanto o Teste Funcional não passar, realizar o ciclo da construção de um Teste de Unidade, que é:
+    3.1. Escrever um Teste de Unidade.
+    3.2. Rodar o Teste de Unidade e verificar se falha.
+    3.3. Enquanto o Teste de únidade não passar:
+        3.3.1. Escrever algum cógido mínimo da aplicação.
+        3.3.2 Rodar Teste de Unidade da aplicação.
+    3.4. Caso seja necessário refatorar a aplicação, retornar ao passo 3.3.
+    3.5. Finalizar o ciclo.
+
+4. Caso ainda seja necessário refatorar a aplicação, retornar ao passo 3.
+
+5. Finalizar o ciclo.
